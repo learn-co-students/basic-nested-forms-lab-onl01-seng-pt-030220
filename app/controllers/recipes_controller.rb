@@ -11,7 +11,7 @@ class RecipesController < ApplicationController
     
     @recipe = Recipe.new
   #  byebug
-    @recipe.ingredients.build   #(name:params[:name],quantity:params[:quantity])
+    @recipe.ingredients.build 
     @recipe.ingredients.build 
   
   end
